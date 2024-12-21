@@ -2,6 +2,7 @@
 import { createRoot } from 'react-dom/client'
 import React from 'react';
 import App from './App.jsx'
+import {jsx as _jsx} from 'react/jsx-dev-runtime.js'
 
 function Chai(){
   return(
@@ -35,6 +36,6 @@ const reactElement=React.createElement(
 
 createRoot(document.getElementById('root')).render(
   
-    reactElement
+    <App/>
  
 )
